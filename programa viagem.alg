@@ -1,7 +1,7 @@
 algoritmo "Projeto da Semana 4"
-// Autor : Alícia Maria Endler
+// Autor : AlÃ­cia Maria Endler
 // Data : 04/03/2022
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 opcaoMenu : literal
 entradaCelsius, entradaFahrenheit, saidaCelsius, saidaFahrenheit : real
@@ -12,11 +12,12 @@ inicio
 repita
     Escreval("1 - Converter Fahrenheit para Celsius")
     Escreval("2 - Converter Celsius para Fahrenheit")
-    Escreval("3 - Converter Dólar para Reais")
-    Escreval("4 - Converter Reais para Dólar")
+    Escreval("3 - Converter DÃ³lar para Reais")
+    Escreval("4 - Converter Reais para DÃ³lar")
     Escreval("5 - Sair")
     leia(opcaoMenu)
-ate opcaoMenu = "5"
+ate opcaoMenu = "5" //o fim do repita precisa estar no final do algoritmo. No seu cÃ³digo, ele somente seguirÃ¡ para as prÃ³ximas linhas (onde possuem as conversÃµes, se o usuÃ¡rio digitar 5)
+
 
  se opcaomenu = "1" entao
    escreval("Informe a temperatura em fahrenheit")
@@ -35,10 +36,10 @@ se opcaomenu = "2" entao
    se opcaomenu = "3" entao
    escreval "Informe sua quantia dolar"
    leia (Quantidadedolar)
-   escreval("Escreva os reais que você quer converter")
+   escreval("Escreva os reais que vocÃª quer converter")
    leia(entradareal)
    quantidadedolar <- moeda * cotacaoDolar
-   escreval("Dinheiro em dólar:...)
+   escreval("Dinheiro em dÃ³lar:...)
    
    se opcaomenu = "4" entao
    Escreval "Informe sua quantia de reais"
